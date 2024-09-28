@@ -1,0 +1,70 @@
+.circleContainer {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #2a2828;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.circleiMG {
+  width: 100%;
+  height: auto;
+}
+
+.cardContainer {
+  margin: 30px auto;
+  width: 375px;
+  display: block;
+  text-align: center;
+  border: solid 3px black;
+  border-radius: 15px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  display: block;
+  margin: 40px auto 40px auto;
+}
+
+.data {
+  font-weight: normal;
+  color: gray;
+  font-size: 35px;
+  letter-spacing: 0.2px;
+}
+
+.socLinksGroup {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socLink {
+  width: 125px;
+  background-color: lightgrey;
+  border-top: solid 2px gray;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.socLinksGroup > :nth-child(2) {
+  border-left: solid 2px gray;
+  border-right: solid 2px gray;
+}

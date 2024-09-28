@@ -1,0 +1,25 @@
+.table {
+  text-align: center;
+  margin: 0 auto;
+  width: 500px;
+  border-collapse: collapse;
+
+  th {
+    padding: 8px;
+    color: white;
+    background-color: rgb(53, 51, 51);
+    border: 1px solid #0a0a0a;
+  }
+}
+
+.body tr:nth-child(even) {
+  background-color: #c5c5c5;
+}
+
+.body td {
+  border: 1px solid #0a0a0a;
+}
+
+body {
+  margin-bottom: 30px;
+}
