@@ -1,24 +1,11 @@
-import Profile from '../profile/Profile';
-import userData from '../userData.json';
-import FriendList from '../friends_list/FriendsList';
-import friends from '../friends.json';
-import transactions from '../transactions.json';
-import TransactionHistory from '../transaction_history/TransactionHistory';
+import SearchForm from '../searchForm/SearchForm';
 
 import './App.css';
 
 const App = () => {
   return (
     <>
-      <Profile
-        name={userData.username}
-        tag={userData.tag}
-        location={userData.location}
-        image={userData.avatar}
-        stats={userData.stats}
-      />
-      <FriendList friends={friends} />
-      <TransactionHistory items={transactions} />
+      <SearchForm />
     </>
   );
 };
